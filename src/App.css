@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
 
 html {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
-body{
+body {
   background-color: black;
   color: white;
   padding: 0;
@@ -14,8 +14,8 @@ body{
 button {
   cursor: pointer;
   font-family: inherit;
-  color: #8E3D4C;
-  background-color: #FEA646;
+  color: #8e3d4c;
+  background-color: #fea646;
   border: 2px solid;
   padding: 10px 20px;
   border-radius: 10px;
@@ -24,10 +24,8 @@ button {
 
 h1 {
   text-align: center;
-  text-shadow: 2px 2px orange,
-              -2px -2px orange,
-              -2px 2px orange,
-               2px -2px orange
+  text-shadow: 2px 2px orange, -2px -2px orange, -2px 2px orange,
+    2px -2px orange;
 }
 
 p {
@@ -40,7 +38,6 @@ p {
 
 .app {
   min-height: 100vw;
-  /* background-image: url('../public/assets/fondo1.png'); */
   background-position: center;
   background-size: cover;
 }
@@ -53,10 +50,17 @@ p {
   align-items: center;
   min-height: 95vh;
 }
-
+.container h1 {
+  font-size: 50px;
+}
+.btnRandom {
+  font-size: 20px;
+}
 .phraseAuthor {
-  min-height: 65vh;
+  min-height: 55vh;
+  min-width: 20vw;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  font-size: 25px;
 }
